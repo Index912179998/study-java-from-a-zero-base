@@ -29,3 +29,7 @@ Oracle把java分为java SE(桌面以及服务器应用部署开发)、java EE(�
 JAVA_HOME：jdk 的安装目录
 PATH：bin下编译（javac）和运行(java)命令
 CLASSPATH：需要运行的class文件(如果在1.5版本以上的JDK可以不配置classpath)
+
+###java的垃圾回收机制
+
+传统的c语言等，需要程序员回收内存比较麻烦，而java则是由JVM实现由一个垃圾回收器管理的堆内存，自动释放不在呗程序引用的对象，按照特定的回收算法实现内存资源的自动回收功能。
