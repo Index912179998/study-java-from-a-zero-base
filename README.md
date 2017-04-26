@@ -15,3 +15,11 @@ java由SUN公司研发，一开始主要方向是用于智能家电，后来成�
 Oracle把java分为java SE(桌面以及服务器应用部署开发)、java EE(用于互联网产品开发 web开发)和java ME(用于嵌入式设备以及手持设备终端的开发)
 
 #java的运行机制
+
+程序员编写.java格式的文件，使用javac编译生成.class字节码文件，最后用JVM使用java解释执行。
+
+#java的开发环境
+
+开发java程序前需要安装JDK(Java SE Development Kit)，即java标准开发包，包括java编译器，java进行时环境(JRE)以及java类库等。登录http://www.coacle.com/technetwork/java/javase/downloads/index.html 可以下载JDK最新版本。
+
+注：JRE里包含JVM，JVM是运行java程序的核心虚拟机，运行java程序不仅需要JVM还需要其他环境支持。如果只是运行java程序，可以只安装JRE，无需安装JDK。
