@@ -23,3 +23,9 @@ Oracle把java分为java SE(桌面以及服务器应用部署开发)、java EE(�
 开发java程序前需要安装JDK(Java SE Development Kit)，即java标准开发包，包括java编译器，java进行时环境(JRE)以及java类库等。登录http://www.coacle.com/technetwork/java/javase/downloads/index.html 可以下载JDK最新版本。
 
 注：JRE里包含JVM，JVM是运行java程序的核心虚拟机，运行java程序不仅需要JVM还需要其他环境支持。如果只是运行java程序，可以只安装JRE，无需安装JDK。
+
+###java环境变量配置
+
+JAVA_HOME：jdk 的安装目录
+PATH：bin下编译（javac）和运行(java)命令
+CLASSPATH：需要运行的class文件(如果在1.5版本以上的JDK可以不配置classpath)
